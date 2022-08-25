@@ -1,0 +1,476 @@
+
+/* Mobile */
+@media only screen and (max-width: 767px)
+{
+
+  #modalMusica .modal-content p{
+    font-size:42px;
+    line-height:40px;
+  }
+
+  #modalMusica .modal-content p + span{
+    font-size:15px
+  }
+
+  #modalMusica .modal-content .boton{
+    margin-bottom:15px;
+  }
+
+  .title{
+    font-size: 35px;
+    padding: 0 15px;
+  }
+
+  .subtitle{
+    font-size: 19px;
+    padding: 0 15px;
+  }
+
+  section.portada .content-portada h1{
+    font-size: 70px;
+    line-height: 70px;
+    margin-bottom: 10px;
+  }
+
+  section.cuenta-regresiva .box-aros{
+    width: 90%;
+  }
+
+  section.portada .box-nombres-fecha-portada h1 span{
+    font-size: 35px;
+    width: 45px;
+    height: 45px;
+    line-height: 40px;
+    margin-bottom: 7px;
+  }
+
+  section.portada .content-portada h2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    color:#ddd
+  }
+
+  section.portada .content-portada span.fecha:before{
+    right: -55px;
+  }
+
+  section.portada .content-portada span.fecha:after{
+    left: -55px;
+  }
+
+  section.portada .content-portada{
+    width: 85%;
+    margin-top: 13%;
+  }
+
+  section.portada .content-portada span.fecha{
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  section.portada{
+    padding-bottom: 70%;
+  }
+
+  section.portada .box-frase-portada p{
+    font-size: 19px;
+  }
+
+  section.portada .box-frase-portada{
+    margin-top: 25px;
+  }
+
+  section.cuenta-regresiva .box-aros .box-circulo span.falta{
+    font-size: 30px;
+  }
+
+  section.footer h4{
+    font-size: 75px;
+    margin-bottom: -5%;
+  }
+
+  section.footer h4 span{
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  section.footer .col-acciones-footer ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  section.cuenta-regresiva .reloj-col span.time {
+    font-size: 18px;
+  }
+
+  section.portada .portada-flor-izq-sup{
+    width: 110px;
+  }
+
+  section.portada img.portada-flor-der-inf{
+    width: 30%;
+  }
+
+  .mariposa-1-portada {
+    width: 80px;
+    transform: rotate(-8deg);
+    position: absolute;
+    left: 45px;
+    top: 100px;
+    opacity: 0.8;
+  }
+
+  .mariposa-2-portada {
+    width: 85px;
+    transform: rotate(125deg);
+    position: absolute;
+    right: 50px;
+    bottom: 400px;
+    opacity: 0.8;
+  }
+
+  section.cuenta-regresiva .box-aros .box-circulo{
+    padding: 28px;
+  }
+
+  section.ceremonia-fiesta .col-ceremonia h3, section.ceremonia-fiesta .col-fiesta h3{
+    padding: 8px 55px;
+  }
+
+  section.ceremonia-fiesta .col-ceremonia .anim-anillos, section.ceremonia-fiesta .anim-fiesta{
+    width: 55%;
+  }
+
+  section.portada img.portada-flor-izq-inf{
+    width: 25%;
+    bottom: -25%;
+  }
+
+  section.instagram{
+    padding-top: 35%;
+    padding-bottom: 50%;
+  }
+
+  section.footer{
+    padding-bottom: 20%;
+    padding-top: 15%;
+  }
+
+  section.regalos{
+    padding-top: 90px;
+    padding-bottom: 25%;
+  }
+
+  section.fiesta{
+    padding-bottom: 35%;
+    padding-top: 35%;
+  }
+
+  section.ceremonia-fiesta{
+    padding-bottom: 35%;
+  }
+  
+  section.galeria{
+    padding-top: 70px;
+  }
+
+  #modalMapa .modal-header .modal-title{
+    font-size: 23px;
+  }
+
+  section.portada .portada-flor-der-inf{
+    bottom: 250px;
+    width: 100px;
+  }
+
+  section.portada .portada-flor-izq-inf {
+    bottom: -30%;
+    width: 30%;
+  }
+
+  section.regalos .regalos-flor-der {
+    bottom: 70px;
+    width: 95px;
+  }
+
+  section.ceremonia-fiesta{
+    background-image: none;
+  }
+
+  #controlador-musica{
+    top: initial;
+    bottom:0;
+    right: 0;
+  }
+
+  .music-anim-icon{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+  }
+
+  .mariposa-1-ceremonia-fiesta {
+    width: 240px;
+    top: 465px;
+  }
+
+  .mariposa-1-regalos {
+    width: 140px;
+    top: 30px;
+  }
+  
+  section.instagram .hashtag {
+    color: #fff;
+    /* text-transform: lowercase; */
+    font-size: 54px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 40px;
+    display: inline-block;
+  }
+
+}
+
+
+
+/* De tablet a Descktop */
+@media only screen and (min-width: 992px)
+{
+
+  /* Modal asistencia */
+
+  #modalAsistencia .modal-content{
+    border: none;
+    background: none;
+    text-align: center;
+    max-width: 800px;
+    height: 580px;
+    padding: 12% 24%;
+    background: url('../img/img_modal01.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-x: 54%;
+  }
+
+  #modalAsistencia .modal-body{
+    padding: 1rem 1.5rem;
+  }
+
+
+  #modalAsistencia .close{
+    top: 0;
+    right: 25px;
+  }
+  
+  #modalAsistencia .img-top-modal img{
+    margin-top: -28%;
+  }
+
+
+
+  /* Modal sugerir cancion */
+
+  #modalSugerirCancion .modal-content{
+    border: none;
+    background: none;
+    text-align: center;
+    max-width: 800px;
+    height: 580px;
+    padding: 12% 24%;
+    background: url('../img/img_modal01.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-x: 54%;
+  }
+
+  #modalSugerirCancion .modal-body{
+    padding: 1rem 1.5rem;
+  }
+
+
+  #modalSugerirCancion .close{
+    top: 0;
+    right: 25px;
+  }
+  
+  #modalSugerirCancion .img-top-modal img{
+    margin-top: -28%;
+  }
+
+
+
+  /* Modal vestuario */
+
+  #modalVestuario .modal-content{
+    border: none;
+    background: none;
+    text-align: center;
+    max-width: 800px;
+    height: 580px;
+    padding: 12% 24%;
+    background: url('../img/img_modal01.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-x: 54%;
+  }
+
+  #modalVestuario .modal-body{
+    padding: 1rem 1.5rem;
+  }
+
+
+  #modalVestuario .close{
+    top: 0;
+    right: 25px;
+  }
+  
+  #modalVestuario .img-top-modal img{
+    margin-top: -28%;
+  }
+
+
+  /* Modal tips */
+
+  #modalTips .modal-content{
+    border: none;
+    background: none;
+    text-align: center;
+    max-width: 800px;
+    height: 580px;
+    padding: 12% 24%;
+    background: url('../img/img_modal01.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-x: 54%;
+  }
+
+  #modalTips .modal-body{
+    padding: 1rem 1.5rem;
+  }
+
+
+  #modalTips .close{
+    top: 0;
+    right: 25px;
+  }
+  
+  #modalTips .img-top-modal img{
+    margin-top: -28%;
+  }
+
+
+
+  /* Modal Tarjeta */
+
+  #modalTarjeta .modal-content{
+    border: none;
+    background: none;
+    text-align: center;
+    max-width: 800px;
+    height: 580px;
+    padding: 12% 24%;
+    background: url('../img/img_modal01.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-x: 54%;
+  }
+
+  #modalTarjeta .modal-body{
+    padding: 1rem 1.5rem;
+  }
+
+
+  #modalTarjeta .close{
+    top: 0;
+    right: 25px;
+  }
+  
+  #modalTarjeta .img-top-modal img{
+    margin-top: -28%;
+  }
+
+
+
+  /* Modal regalos */
+
+  #modalRegalos .modal-content{
+    border: none;
+    background: none;
+    text-align: center;
+    max-width: 800px;
+    height: 580px;
+    padding: 12% 24%;
+    background: url('../img/img_modal01.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-x: 54%;
+  }
+
+  #modalRegalos .modal-body{
+    padding: 1rem 1.5rem;
+  }
+
+
+  #modalRegalos .close{
+    top: 0;
+    right: 25px;
+  }
+  
+  #modalRegalos .img-top-modal img{
+    margin-top: -28%;
+  }
+
+  
+  
+  .content-fotos .shadow-left{
+    display: block;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    height: 150%;
+    width: 6%;
+    background: url('../img/img_sombraGaleria_izq.svg') left center no-repeat;
+    top:-27%
+  }
+
+  .content-fotos .shadow-right{
+    display: block;
+    position: absolute;
+    right: 0;
+    z-index: 999;
+    height: 150%;
+    width: 6%;
+    background: url('../img/img_sombraGaleria_der.svg') right center repeat-y;
+    top:-27%
+  }
+
+  #modalTarjeta .modal-body {
+    padding: 1rem 1.5rem;
+    overflow-y: auto;
+    max-width: 83%;
+    margin-left: 31px;
+    margin-bottom: 75px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px)
+{
+  
+  section.instagram .hashtag{
+    font-size: 40px;
+  }
+
+}
