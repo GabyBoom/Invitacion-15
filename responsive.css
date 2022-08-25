@@ -4,7 +4,7 @@
 {
 
   #modalMusica .modal-content p{
-    font-size:42px;
+    font-size:36px;
     line-height:40px;
   }
 
@@ -15,6 +15,7 @@
   #modalMusica .modal-content .boton{
     margin-bottom:15px;
   }
+
 
   .title{
     font-size: 35px;
@@ -27,13 +28,18 @@
   }
 
   section.portada .content-portada h1{
-    font-size: 70px;
-    line-height: 70px;
-    margin-bottom: 10px;
+    font-size: 100px;
+    line-height: 80px;
   }
 
+  section.portada .content-portada h2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+
   section.cuenta-regresiva .box-aros{
-    width: 90%;
+    width: 100%;
   }
 
   section.portada .box-nombres-fecha-portada h1 span{
@@ -44,30 +50,23 @@
     margin-bottom: 7px;
   }
 
-  section.portada .content-portada h2 {
-    width: 100%;
-    text-align: center;
-    font-family: 'DM Serif Display', serif;
-    font-size: 30px;
-    color:#ddd
-  }
+  
 
   section.portada .content-portada span.fecha:before{
-    right: -55px;
+    right: -40px;
   }
 
   section.portada .content-portada span.fecha:after{
-    left: -55px;
+    left: -40px;
   }
 
   section.portada .content-portada{
-    width: 85%;
-    margin-top: 13%;
+    width: 95%;
   }
 
   section.portada .content-portada span.fecha{
-    font-size: 28px;
-    margin-bottom: 10px;
+    font-size: 22px;
+    margin-bottom: 15px;
   }
 
   section.portada{
@@ -75,20 +74,28 @@
   }
 
   section.portada .box-frase-portada p{
-    font-size: 19px;
+    font-size: 20px;
   }
 
   section.portada .box-frase-portada{
-    margin-top: 25px;
+    margin-top: 130px;
+  }
+
+  section.portada::after{
+    bottom: -5%;
   }
 
   section.cuenta-regresiva .box-aros .box-circulo span.falta{
+    font-size: 45px;
+    margin-top: 0;
+  }
+
+  section.cuenta-regresiva .reloj-col span.number{
     font-size: 30px;
   }
 
   section.footer h4{
-    font-size: 75px;
-    margin-bottom: -5%;
+    font-size: 90px;
   }
 
   section.footer h4 span{
@@ -110,41 +117,26 @@
   }
 
   section.portada .portada-flor-izq-sup{
-    width: 110px;
+    width: 33%;
   }
 
   section.portada img.portada-flor-der-inf{
     width: 30%;
   }
 
-  .mariposa-1-portada {
-    width: 80px;
-    transform: rotate(-8deg);
-    position: absolute;
-    left: 45px;
-    top: 100px;
-    opacity: 0.8;
-  }
-
-  .mariposa-2-portada {
-    width: 85px;
-    transform: rotate(125deg);
-    position: absolute;
-    right: 50px;
-    bottom: 400px;
-    opacity: 0.8;
-  }
-
   section.cuenta-regresiva .box-aros .box-circulo{
-    padding: 28px;
+    padding: 28px 35px;
+    width: 75%;
+    height: auto;
+    max-width: 350px;
   }
 
   section.ceremonia-fiesta .col-ceremonia h3, section.ceremonia-fiesta .col-fiesta h3{
-    padding: 8px 55px;
+    padding: 8px 30px;
   }
 
   section.ceremonia-fiesta .col-ceremonia .anim-anillos, section.ceremonia-fiesta .anim-fiesta{
-    width: 55%;
+    width: 220px;
   }
 
   section.portada img.portada-flor-izq-inf{
@@ -159,21 +151,21 @@
 
   section.footer{
     padding-bottom: 20%;
-    padding-top: 15%;
+    padding-top: 30%;
   }
 
   section.regalos{
-    padding-top: 90px;
-    padding-bottom: 25%;
+    padding-top: 140px;
+    padding-bottom: 140px;
   }
 
   section.fiesta{
     padding-bottom: 35%;
-    padding-top: 35%;
+    padding-top:100px;
   }
 
   section.ceremonia-fiesta{
-    padding-bottom: 35%;
+    padding-bottom: 185px;
   }
   
   section.galeria{
@@ -185,22 +177,53 @@
   }
 
   section.portada .portada-flor-der-inf{
-    bottom: 250px;
-    width: 100px;
+    bottom: 19%;
+    width: 18%;
   }
 
   section.portada .portada-flor-izq-inf {
-    bottom: -30%;
+    bottom: -52%;
     width: 30%;
   }
 
   section.regalos .regalos-flor-der {
-    bottom: 70px;
-    width: 95px;
+    bottom: 16%;
+    width: 26%;
   }
 
-  section.ceremonia-fiesta{
-    background-image: none;
+  section.ceremonia-fiesta .info-col .info-box a.boton{
+    min-width: 80%;
+  }
+
+
+  section.ceremonia-fiesta .ceremonia-fiesta-flor-der{
+    width: 25%;
+    bottom: 36%;
+  }
+
+  section.fiesta .fiesta-flor-izq{
+    max-width: 25%;
+    bottom: -30%;
+  }
+
+  section.fiesta:after{
+    bottom: -35px;
+  }
+
+  section.instagram:before{
+    top: -6%;
+  }
+
+  section.instagram .hashtag{
+    font-size: 45px;
+  }
+
+  section.instagram:after{
+    bottom: -5%;
+  }
+
+  section.fiesta .item-fiesta a.boton{
+    min-width:100%
   }
 
   #controlador-musica{
@@ -215,24 +238,38 @@
     cursor: pointer;
   }
 
-  .mariposa-1-ceremonia-fiesta {
-    width: 240px;
-    top: 465px;
+  section.portada .container .row:first-child{
+    height:815px;
   }
 
-  .mariposa-1-regalos {
-    width: 140px;
-    top: 30px;
+  section.portada::before{
+    background-color: rgba(0,0,0,0.2);
   }
-  
-  section.instagram .hashtag {
-    color: #fff;
-    /* text-transform: lowercase; */
-    font-size: 54px;
-    font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
-    margin-bottom: 40px;
-    display: inline-block;
+
+  section.ceremonia-fiesta .info-col .info-box h6{
+    font-size: 30px;
+  }
+
+  section.ceremonia-fiesta .info-col .info-box {
+    margin-bottom: 55px;
+    margin-top: 50px;
+  }
+
+  section.fiesta .item-fiesta h3{
+    font-size:35px
+  }
+
+}
+
+
+
+
+
+/* Otros */
+@media only screen and (min-width: 750px)
+{
+  section.ceremonia-fiesta .ceremonia-fiesta-flor-der{
+    width: 13%;
   }
 
 }
@@ -256,7 +293,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    background-position-x: 54%;
   }
 
   #modalAsistencia .modal-body{
@@ -288,7 +324,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    background-position-x: 54%;
   }
 
   #modalSugerirCancion .modal-body{
@@ -305,8 +340,7 @@
     margin-top: -28%;
   }
 
-
-
+  
   /* Modal vestuario */
 
   #modalVestuario .modal-content{
@@ -370,36 +404,6 @@
 
 
 
-  /* Modal Tarjeta */
-
-  #modalTarjeta .modal-content{
-    border: none;
-    background: none;
-    text-align: center;
-    max-width: 800px;
-    height: 580px;
-    padding: 12% 24%;
-    background: url('../img/img_modal01.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-position-x: 54%;
-  }
-
-  #modalTarjeta .modal-body{
-    padding: 1rem 1.5rem;
-  }
-
-
-  #modalTarjeta .close{
-    top: 0;
-    right: 25px;
-  }
-  
-  #modalTarjeta .img-top-modal img{
-    margin-top: -28%;
-  }
-
 
 
   /* Modal regalos */
@@ -415,7 +419,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    background-position-x: 54%;
   }
 
   #modalRegalos .modal-body{
@@ -456,21 +459,16 @@
     top:-27%
   }
 
-  #modalTarjeta .modal-body {
-    padding: 1rem 1.5rem;
-    overflow-y: auto;
-    max-width: 83%;
-    margin-left: 31px;
-    margin-bottom: 75px;
-    padding-right: 10px;
-  }
+
 }
 
 @media only screen and (max-width: 375px)
 {
   
   section.instagram .hashtag{
-    font-size: 40px;
+    font-size: 35px;
   }
 
 }
+
+
